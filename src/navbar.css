@@ -1,16 +1,43 @@
-header {
+.navbar {
   background: white;
   border-bottom: 1px solid #ededed;
   line-height: 40px;
   padding: 19px 0;
   width: 100%;
   z-index: 1;
-  position: fixed;
+  /* position: fixed; */
+  /* top: 0px; */
+  /* margin-top: -1px; */
+  height: 40px;
 }
 
+.logo {
+  float: left;
+  height: 40px;
+  width: 100px;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+  margin: 0 20px 0 0;
+  max-width: 100%;
+  padding: 0 114px 0 0;
+}
+
+header ul li {
+  float: left;
+  margin-right: 30px;
+}
+
+.auth {
+  float: right;
+}
+/*
 .container {
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
