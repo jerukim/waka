@@ -11,7 +11,7 @@ const Navbar = () => (
           <a className="logo">wakkkkkkkkkkkkkkkkkkkkkkkkkkkkkka</a>
           <ul>
             <li>
-              <Link to="/about/">how this shit works</Link>
+              <Link to="/tutorial/">how this shit works</Link>
             </li>
             <li>
               <Link to="/contact">contact info bitch</Link>
