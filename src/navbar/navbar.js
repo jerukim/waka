@@ -8,16 +8,24 @@ const Navbar = () => (
     <div className="container">
       <div className="global-margin">
         <div className="row">
-          <a className="logo">wakkkkkkkkkkkkkkkkkkkkkkkkkkkkkka</a>
+          <Link className="logo link" to="/">
+            wakkkkkkkkkkkkkkkka
+          </Link>
           <ul>
             <li>
-              <Link to="/tutorial/">how this shit works</Link>
+              <Link className="link" to="/tutorial/">
+                how this shit works
+              </Link>
             </li>
             <li>
-              <Link to="/contact">contact info bitch</Link>
+              <Link className="link" to="/contact">
+                contact info bitch
+              </Link>
             </li>
             <li>
-              <Link to="/account/sign-in">sign up foo</Link>
+              <Link className="link" to="/account/sign-in">
+                sign up foo
+              </Link>
             </li>
           </ul>
         </div>
