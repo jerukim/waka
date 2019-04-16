@@ -2,48 +2,15 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import Navbar from './navbar';
-
-const text = [
-  'the',
-  'quick',
-  'brown',
-  'fox',
-  'jumped',
-  'over',
-  'the',
-  'lazy',
-  'dog',
-  'the',
-  'quick',
-  'brown',
-  'fox',
-  'jumped',
-  'over',
-  'the',
-  'lazy',
-  'dog',
-  'the',
-  'quick',
-  'brown',
-  'fox',
-  'jumped',
-  'over',
-  'the',
-  'lazy',
-  'dog',
-];
+import Navbar from './navbar/navbar';
+import Routes from './routes';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <div className="App">
-          {text.map(str => (
-            <h1>{str}</h1>
-          ))}
-        </div>
+        <Routes />
       </div>
     );
   }

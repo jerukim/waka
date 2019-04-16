@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
-import './App.css';
+import '../App.css';
 
 const Navbar = () => (
   <header className="navbar">
@@ -10,13 +11,13 @@ const Navbar = () => (
           <a className="logo">wakkkkkkkkkkkkkkkkkkkkkkkkkkkkkka</a>
           <ul>
             <li>
-              <a>how this shit works</a>
+              <Link to="/about/">how this shit works</Link>
             </li>
             <li>
-              <a>contact info bitch</a>
+              <Link to="/contact">contact info bitch</Link>
             </li>
             <li>
-              <a>sign up foo</a>
+              <Link to="/account/sign-in">sign up foo</Link>
             </li>
           </ul>
         </div>
